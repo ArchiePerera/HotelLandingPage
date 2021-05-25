@@ -1,0 +1,127 @@
+.navbar-brand img{
+  max-height: 80px;
+  margin-left: 30px;
+}
+
+.navbar-nav {
+  margin-right: 30px;
+}
+
+header .row {
+  background-image: url(img/landscape.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 70vh;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+header .reservation {
+  background-color: rgba(0,0,0,0.5);
+  min-height: 70vh;
+}
+
+header h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+header h2 {
+  font-family: 'Tangerine', serif;
+  font-size: 60px;
+  color:black;
+  margin-bottom: 50px;
+}
+
+header .slogan {
+  display: flex;
+  min-height: 70vh;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  header .slogan {
+    display: none;
+  }
+}
+
+#presentation .media span {
+  color: #e6e6e6;
+  font-size: 3rem;
+  width: 4rem;
+  text-align: center;
+}
+
+#presentation .media {
+  padding: .5rem 1rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+#presentation .media:hover {
+  background-color: rgba(128, 128, 128, 0.4);
+  border-radius: 10px;
+}
+
+.fond_avis {
+  min-height: calc(100vh - 80px);
+  background-image: url(img/bed1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: center;
+  padding: 0;
+}
+
+.avis_client {
+  background-color: #d3dae4;
+  min-height: calc(100vh - 80px);
+}
+
+.avis_client span {
+  font-size: 5rem;
+  color: #17a2b8;
+}
+
+.avis_client h5 {
+  color: #888;
+  font-size: 2rem;
+}
+
+#contact {
+  min-height: calc(100vh - 80px);
+  background-image: url(img/champ.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: bottom;
+}
+
+#contact .row {
+  min-height: calc(100vh - 80px);
+}
+
+.form_contact {
+  background-color: rgba(255,255,255,.7);
+  padding: 2rem 1rem;
+}
+
+footer {
+  background-color: rgba(0,0,0,.8);
+  color: #999;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+footer a {
+  color: #999;
+  font-size: 2rem;
+  transition: all .2s ease-in-out;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}

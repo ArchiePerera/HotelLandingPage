@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name = "description" content = "Site responsive avec bootstrap">
+
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <link rel = "stylesheet" href ="style.css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f" crossorigin="anonymous"></script>
+  <link rel = "shortcut icon" href = "img/favicon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"> 
+
+
+ <title>Hotel de Luxe</title>
+</head>
+
+  <body id = "haut">
+
+
+    <!--********************************  NAVBAR  ***************************************-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#haut"><img src="img/unnamed.png" alt="logo hotel">Hotel Maret</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#haut">Accueil </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#presentation">Présentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#avis">Avis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--********************************  HEADER  ***************************************-->
+
+    <header class="container-fluid">
+
+      <div class="row align-items-center">
+
+        <div class="col-12 col-md-6 reservation d-flex align-items-center">
+          <div>
+            <h1>Hôtel de Luxe</h1>
+
+              <form class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                  <input type="date" class="form-control">
+                 </div>
+                <button type="submit" class="btn btn-primary mb-2">Voir disponibilités</button>
+              </form> 
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 slogan">
+
+          <h2>Vivez une Experience Unique</h2>
+
+        </div>
+
+      </div>
+
+    </header>
+
+    <!--********************************  OFFRE  ***************************************-->
+
+    <div class="container" id="presentation">
+
+      <div class="row">
+
+        <div class="col-12 mb-4">
+          <h2>Nos Offres</h2>  
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span>
+              <i class="fas fa-bed"></i>
+            </span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Literie de Qualité</h5>
+                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ea quod quasi officia maiores voluptatem. Voluptas blanditiis magni recusandae architecto nam facilis omnis, cumque doloremque molestiae ipsa qui ratione tempora!</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span>
+              <i class="fas fa-award"></i>
+            </span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Certification de confiance</h5>
+                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ea quod quasi officia maiores voluptatem. Voluptas blanditiis magni recusandae architecto nam facilis omnis, cumque doloremque molestiae ipsa qui ratione tempora!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span>
+              <i class="fas fa-parking"></i>
+            </span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Parking privé</h5>
+                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ea quod quasi officia maiores voluptatem. Voluptas blanditiis magni recusandae architecto nam facilis omnis, cumque doloremque molestiae ipsa qui ratione tempora!</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span>
+              <i class="fas fa-swimmer"></i>
+            </span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Piscine et SPA</h5>
+                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ea quod quasi officia maiores voluptatem. Voluptas blanditiis magni recusandae architecto nam facilis omnis, cumque doloremque molestiae ipsa qui ratione tempora!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span>
+              <i class="fas fa-plane"></i>
+            </span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Proche Aéroport</h5>
+                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ea quod quasi officia maiores voluptatem. Voluptas blanditiis magni recusandae architecto nam facilis omnis, cumque doloremque molestiae ipsa qui ratione tempora!</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-12 col-md-6">
+          <div class="media my-3">
+            <span>
+              <i class="fas fa-comments"></i>
+            </span>
+            <div class="media-body ml-3">
+              <h5 class="mt-0">Salles de séminaire</h5>
+                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ea quod quasi officia maiores voluptatem. Voluptas blanditiis magni recusandae architecto nam facilis omnis, cumque doloremque molestiae ipsa qui ratione tempora!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--********************************  AVIS  ***************************************-->
+
+        <div class="container-fluid" id="avis">
+
+          <div class="row">
+
+            <div class="col-12 col-md-6 fond_avis"></div>
+
+            <div class="col-12 col-md-6 avis_client text-center d-flex flex-column justify-content-center">
+              <span>
+                <i class="fas fa-quote-right"></i>
+              </span>
+              <h5 class = "my-3">Léo Dupont</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorem dicta aliquid modi sit nihil?</p>
+            </div>
+          </div>
+        </div>
+
+
+    <!--********************************  FORMULAIRE  ***************************************-->
+
+    <div class="container-fluid" id = "contact">
+
+      <div class="row align-items-center">
+
+        <div class="col-12 offset-md-1 col-md-5 form_contact">
+
+          <form action = "mailto:contact@hotmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="InputEmail1">Email</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Saisir email">
+            </div>
+            <div class="form-group">
+              <label for="sujet">Sujet</label>
+              <input type="text" class="form-control" id="sujet" placeholder="Sujet">
+            </div>
+            <div class="form-group">
+              <label for="message">Votre message</label>
+              <textarea class="form-control" id="message" rows="10" placeholder="Saisir le message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!--********************************  FOOTER  ***************************************-->
+
+<footer class="container-fluid">
+
+  <div class="row justify-content-around align-items-center">
+
+    <div class="col-12 col-md-4 text-center">
+        <p>Adresse</p>
+        <p>15 rue Machin<br>
+        Marseille, FRANCE</p>
+    </div>
+
+    <div class="col-12 col-md-4 text-center">
+
+      <span>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+      </span>
+
+      <span>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+      </span>
+
+      <span>
+        <a href="#"><i class="fab fa-instagram-square"></i></a>
+      </span>
+
+    </div>
+
+  </row>
+
+</footer>
+     
+    <!--Script JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
