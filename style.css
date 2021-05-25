@@ -48,6 +48,10 @@ header .slogan {
   header .slogan {
     display: none;
   }
+
+  header form button {
+    margin-left: 10px;
+  }
 }
 
 #presentation .media span {
